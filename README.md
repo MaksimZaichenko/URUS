@@ -1,4 +1,4 @@
-# Urus rent website ![screenshoot](https://github.com/user-attachments/assets/106b0945-622d-4a29-8c95-35b1cd61c7b9)   
+# Urus rent [website](https://maksimzaichenko.github.io/URUS/) ![screenshoot](https://github.com/user-attachments/assets/106b0945-622d-4a29-8c95-35b1cd61c7b9)   
 
 # Website for renting a lamborghini urus
 >## The site has sections for rent, color selection and additional photos
