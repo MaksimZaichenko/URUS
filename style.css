@@ -197,6 +197,10 @@ body {
     margin: 0 auto;
 }
 
+.color-page {
+    height: 2250px;
+}
+
 .gallery-box {
     padding: 170px 50px;
     display: flex;
@@ -482,131 +486,177 @@ body {
     }
 } 
 
-.info-page {
-    height: 1450px;
+.infop-page {
+    height: auto;
+}
+
+.infop-img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
 }
 
 .infop-text1 {
+    font-size: 100px;
     text-align: center;
-    text-transform: uppercase;
-    font-size: 110px;
-    font-family: "Inter", sans-serif;
-    margin-top: 80px;
-}
-
-.infop-image1 {
- width: 730px;
- height: 550px;
- margin: 1 auto auto;
- margin-left: 360px;
- float: right;
-}
-
-.infop-image2 {
- width: 700px;
- height: 550px;
- margin: 1 auto auto;
- float: left;
+    padding-top: 100px;
 }
 
 .infop-text2 {
-    margin-top: 160px;
-    display: flex;
+    font-size: 45px;
+    text-align: left;
+    padding-left: 670px;
+    padding-bottom: 300px;
+    position: absolute;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
 }
 
-.infop-div {
- font-size: 50px;
- margin-top: 145px;
- margin-left: 75px;
- float: left;
+.infop-text3 {
+    font-size: 45px;
+    text-align: left;
+    padding-left: 3150px;
+    padding-bottom: 300px;
+    position: absolute;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
 }
 
-.infop-div1 {
- font-size: 50px;
- margin-top: 80px;
- margin-left: 345px;
-}
-
-.infop-textp {
-    margin-top: 160px;
-    display: flex;
-}
-
-@media (max-width: 1820px) {
-    .infop-text1 {
-        font-size: 70px;
+@media (max-width: 1780px) {
+    .infop-text2 {
+        font-size: 40px;
+    }
+    .infop-text3 {
+        font-size: 40px;
+        padding-left: 2900px;
     }
 }
 
-@media (max-width: 1790px) {
-    .infop-div {
-        font-size: 30px;
+@media (max-width: 1700px) {
+    .infop-text3 {
+        padding-left: 2850px;
+    }
+}
+
+@media (max-width: 1610px) {
+    .infop-text3 {
+        padding-left: 2750px;
+    }
+}
+
+@media (max-width: 1560px) {
+    .infop-text3 {
+        padding-left: 2600px;
     }
 }
 
 @media (max-width: 1500px) {
-    .infop-div {
-        font-size: 25px;
+    .infop-text3 {
+        padding-left: 2400px;
+    }
+    .infop-text1 {
+        font-size: 80px;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1380px) {
+    .infop-text2 {
+        font-size: 35px;
+        padding-left: 470px;
+    }
+    .infop-text3 {
+        font-size: 35px;
+        padding-left: 2100px;
+    }
+}
+
+@media (max-width: 1380px) {
+    .infop-text2 {
+        font-size: 35px;
+    }
+    .infop-text3 {
+        font-size: 35px;
+        padding-left: 2100px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .infop-text2 {
+        font-size: 30px;
+        padding-left: 370px;
+    }
+    .infop-text3 {
+        font-size: 30px;
+        padding-left: 1900px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .infop-text2 {
+        font-size: 25px;
+        padding-bottom: 200px;
+    }
+    .infop-text3 {
+        font-size: 25px;
+        padding-left: 1500px;
+        padding-bottom: 200px;
+    }
     .infop-text1 {
         font-size: 60px;
     }
 }
 
-@media (max-width: 1630px) {
-    .infop-div {
-        font-size: 25px;
+@media (max-width: 870px) {
+    .infop-text2 {
+        font-size: 20px;
+        padding-bottom: 150px;
     }
-}
-
-@media (max-width: 1000px) {
+    .infop-text3 {
+        font-size: 20px;
+        padding-left: 1300px;
+        padding-bottom: 150px;
+    }
     .infop-text1 {
         font-size: 50px;
     }
 }
 
-@media (max-width: 880px) {
-    .infop-text1 {
-        font-size: 40px;
+@media (max-width: 750px) {
+    .infop-text3 {
+        padding-left: 1100px;
     }
-    .infop-div {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 780px) {
-    .infop-div {
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 700px) {
     .infop-text1 {
         font-size: 30px;
     }
 }
 
-@media (max-width: 680px) {
-    .infop-div {
+@media (max-width: 650px) {
+    .infop-text2 {
         font-size: 10px;
+        padding-bottom: 120px;
+        padding-left: 140px;
+    }
+    .infop-text3 {
+        font-size: 10px;
+        padding-bottom: 120px;
+        padding-left: 900px;
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 500px) {
+    .infop-text2 {
+        padding-left: 170px;
+    }
+    .infop-text3 {
+        padding-left: 700px;
+    }
     .infop-text1 {
         font-size: 20px;
     }
-    .infop-div {
-        font-size: 5px;
-    }
 }
 
-@media (max-width: 330px) {
-    .infop-text1 {
-        font-size: 10px;
+@media (max-width: 400px) {
+    .infop-text3 {
+        padding-left: 500px;
     }
 }
-
