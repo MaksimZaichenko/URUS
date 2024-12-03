@@ -650,18 +650,10 @@ body {
     }
 }
 
-.footer {
-    background-color: #000000;
-}
 
-.footer-img {
-    width: 100%;
-    height: 700px;
-    opacity: 0.2;
-}
 
 .footer-text1 {
-    position: absolute;
+position: absolute;
     font-size: 40px;
     margin-top: 40px;
     margin-left: 40px;
@@ -677,16 +669,146 @@ body {
     margin-left: 40px;
 }
 
-.footer-text3 {
-    position: absolute;
-    color: white;
-    margin-top: 530px;
-    margin-left: 1650px;
-}
-
 .footer-text4 {
     position: absolute;
     color: white;
-    margin-top: 530px;
-    margin-left: 1300px;
+    margin-left: 200px;
+    column-count: 4;
+    text-align: center;
+    column-gap: 190px;
+    margin-top: -25px;
+}
+
+.footer-text3 {
+    position: absolute;
+    color: white;
+    margin-top: 520px;
+    margin-left: 1650px;
+    white-space: nowrap;
+}
+
+.footer-icon1 {
+    position: absolute;
+    width: 46px;
+    margin-top: 110px;
+    margin-left: 78px;
+}
+
+.footer-icon2 {
+    position: absolute;
+    width: 45px;
+    margin-top: 110px;
+    margin-left: 35px;
+}
+
+.footer-icon3 {
+    position: absolute;
+    width: 46px;
+    margin-top: 110px;
+    margin-left: 125px;
+}
+
+.footer-icon4 {
+    position: absolute;
+    width: 48px;
+    height: 46px;
+    margin-top: 110px;
+    margin-left: 170px;
+}
+
+.footer {
+    background-image: url(images/footer-background.jpg) ;
+    height: 700px;
+    background-size: cover;
+    background-color: #000000;
+    
+}
+
+.footer-text5 {
+    color: #FFFFFF;
+    padding-top: 635px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1780px) {
+    .footer-text3 {
+        font-size: 20px;
+        margin-left: 1550px;
+    }
+}
+
+
+@media (max-width: 1660px) {
+    .footer-text3 {
+        margin-left: 1350px;
+    }
+}
+
+@media (max-width: 1460px) {
+    .footer-text3 {
+        margin-left: 1150px;
+    }
+}
+
+@media (max-width: 1260px) {
+    .footer-text3 {
+        margin-left: 950px;
+    }
+}
+
+@media (max-width: 1070px) {
+    .footer-text3 {
+        margin-left: 750px;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 860px) {
+    .footer-text3 {
+        margin-left: 600px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 690px) {
+    .footer-text3 {
+        margin-left: 500px;
+        font-size: 15px;
+    }
+    .footer-text1 {
+        font-size: 30px;
+    }
+    .footer-text2 {
+        font-size: 20px;
+        margin-top: 75px;
+    }
+    .footer-icon1 {
+        margin-top: 100px;
+    }
+    .footer-icon2 {
+        margin-top: 100px;
+    }
+    .footer-icon3 {
+        margin-top: 100px;
+    }
+    .footer-icon4 {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 590px) {
+    .footer-text3 {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 390px) {
+    .footer-text3 {
+        margin-left: 200px;
+    }
+    .footer-text5 {
+        padding-top: 645px;
+        font-size: 15px;
+    }
 }
