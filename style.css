@@ -656,7 +656,7 @@ body {
 position: absolute;
     font-size: 40px;
     margin-top: -5px;
-    margin-left: 278px;
+    margin-left: 358px;
     color: white;
     letter-spacing: 2px;
     text-decoration:underline;
@@ -666,7 +666,7 @@ position: absolute;
     position: absolute;
     color: white;
     margin-top: 40px;
-    margin-left: 278px;
+    margin-left: 358px;
 }
 
 .footer-icon1 {
@@ -813,4 +813,20 @@ position: absolute;
     .footer-text3 h1 {
         font-size: 15px;
     }
+}
+
+.footer-text5 {
+    color: white;
+    font-size: 20px;
+    margin-top: 470px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.footer__link {
+    color: white;
+    font-size: 20px;
+    margin-top: 470px;
+    margin-left: 200px;
+    position: absolute;
 }
