@@ -13,5 +13,8 @@
 # The page with the car's reservation
 >## You can book a car on this page
 ![screenshoot 3](https://github.com/user-attachments/assets/633ade57-9ae4-4488-93de-c7414072c570)
+# Footer
+>## In footer you can go to any part of the site as well as to the company's social networks and information about it
+![screenshoot 5](https://github.com/user-attachments/assets/b1772bf1-1334-4225-9d48-255c5c435336)
 # Multiplatform
 >## This site supports many devices: computer, tablet, phone
